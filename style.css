@@ -1,0 +1,39 @@
+.container {
+  background-color: #d7d7d9;
+}
+
+.screen {
+  background-color: #4aa0ed;
+  padding: 4rem;
+}
+
+.first {
+  background-color: #4aa0ed;
+  margin-left: 30rem;
+  padding-top: 15rem;
+  margin-top: 5rem;
+  margin-right: 15rem;
+
+}
+
+.second {
+  background-color: #4aa0ed;
+  margin-left: 30rem;
+  padding-top: 15rem;
+  margin-top: 5rem;
+  margin-right: 15rem;
+}
+
+/* .picture {
+  background-color: red;
+  border-radius: 200rem;
+  margin-right: 65rem;
+
+
+} */
+
+.logo {
+  margin-left: 40rem;
+  background-color: red;
+  margin-right: 40rem;
+}
