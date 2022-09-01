@@ -1,39 +1,68 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box;
+}
+
+
 .container {
-  background-color: #d7d7d9;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
-.screen {
+.nav {
+  width: 20%;
+}
+
+.main {
+  position: relative;
+  width: 55%;
+}
+
+.sidebar {
+  width: 20%;
+}
+
+.banner {
+  background-image: url(https://codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-color: #4aa0ed;
-  padding: 4rem;
+  width: 100%;
+  height: 200px;
 }
 
-.first {
-  background-color: #4aa0ed;
-  margin-left: 30rem;
-  padding-top: 15rem;
-  margin-top: 5rem;
-  margin-right: 15rem;
-
-}
-
-.second {
-  background-color: #4aa0ed;
-  margin-left: 30rem;
-  padding-top: 15rem;
-  margin-top: 5rem;
-  margin-right: 15rem;
-}
-
-/* .picture {
+.profile {
+  height: 8rem;
+  width: 8rem;
   background-color: red;
-  border-radius: 200rem;
-  margin-right: 65rem;
+  border-radius: 50%;
+  position: absolute;
+  border: 2px solid white;
+  overflow: hidden;
+  bottom: -64px;
+  left: 4rem;
+}
 
+.profile img {
+  height: 8rem;
+  width: 8rem;
 
-} */
+}
 
-.logo {
-  margin-left: 40rem;
-  background-color: red;
-  margin-right: 40rem;
+.bio {
+  /* padding: 10px; */
+}
+
+a.btn {
+  float: right;
+  padding: 5px 30px;
+  text-transform: capitalize;
+  border: 1px solid;
+  font-size: 1rem;
+  font-weight: 800;
+  text-decoration: none;
+  border-radius: 15px;
 }
