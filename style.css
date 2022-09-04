@@ -3,6 +3,10 @@
   padding: 0rem;
   box-sizing: border-box;
 }
+html{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1rem;
+}
 
 
 .container {
@@ -16,8 +20,9 @@
 }
 
 .main {
-  position: relative;
+  position: relative  ;
   width: 55%;
+  height: 0rem;
 }
 
 .sidebar {
@@ -73,11 +78,46 @@ a.btn {
   padding: 5px 30px;
   text-transform: capitalize;
   border: 1px solid;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 800;
   text-decoration: none;
-  border-radius: 15px;
+  border-radius: 1rem;
   background-color: transparent;
 
 
+}
+
+
+body {margin:0}
+
+.iconBar {
+  width: 25%;
+  background-color: transparent;
+  height: 100rem;
+  overflow: hidden;
+}
+
+.iconBar a {
+  display: block;
+  text-align: center;
+  padding: 2rem  ;
+  color: black;
+  font-size: 35px;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+}
+.logo{
+  height: 5rem;
+  text-align: center;
+
+}
+.logo img{
+height: 5rem;
+}
+.top{
+  background-color: red;
+  position: absolute  ;
+  width: 100%;
+  height: 200%;
 }
